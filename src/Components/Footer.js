@@ -1,22 +1,25 @@
 import React from "react";
 import logo from "../../src/assets/images/logo.svg";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
     //Main Container
-    <div className="md:mx-16 text-white mx-8">
+    <div className="md:mx-16 text-white mx-2">
       {/*Div with Borders*/}
       <div className="border-2 border-border rounded-md">
         <div className="md:flex justify-between md:p-12 p-6">
         {/*SECTIONS*/}
         <section>
-          <img className="" src={logo} alt="" />
+          <Link to={'/'}>
+          <img className="cursor-pointer" src={logo} alt="" />
+          </Link>
         </section>
         {/*SECTIONS*/}
 
       <div className="flex justify-between md:mt-0 mt-10">
           {/*SECTIONS*/}
-          <section>
+          <section className="md:mr-12">
           <h2 className="font-bold text-blue">Bağlantılar</h2>
           <ul className="mt-2">
             <li className="hover:text-blue cursor-pointer">
@@ -208,7 +211,7 @@ const Footer = () => {
         </div>
 
         <hr className="w-[100%] mb-2 text-border opacity-60"></hr>
-        <p className="md:px-12 pt-6 pb-4 px-6">
+        <p className="md:px-12 pt-6 pb-4 px-6 md:text-base text-sm">
           İletişime geçmek ve sorularınızı sormak için İletişim ve Soru Cevap
           sayfasına giderek yorum kısmından sorularınızı sorabilirsiniz.
           Genellikle 24 saat içinde cevap verilmiş olacaktır.

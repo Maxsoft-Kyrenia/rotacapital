@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 
 const HeroSection = () => {
   return (
@@ -12,7 +13,7 @@ const HeroSection = () => {
                  <h2 className='text-2xl font-bold md:w-fit w-[50%]'>Dünya Piyasalarina Açilan Kapiyiz!</h2>
                  <p className=' mt-3 md:w-[80%] w-[90%] '>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem</p>
                   {/*Button*/}
-                <button className=' mt-6 p-5 px-10 rounded rounded-r-full bg-gradient-to-r from-light to-dark hover:bg-gradient-to-l font-semibold mr-3 text-xl'>Hesap Oluštur</button>
+                <button className=' mt-6 p-5 px-10 rounded rounded-r-full bg-gradient-to-r from-light to-dark hover:bg-gradient-to-l font-semibold mr-3 text-xl'> <Link to={'/demo'}> Hesap Oluštur</Link></button>
                  {/*Button*/}
               </section>
                 {/*Section with Header Tagline @left*/}
@@ -21,7 +22,7 @@ const HeroSection = () => {
               <section className='w-[100%] mr-0 flex items-center justify-center md:mt-0 mt-20'>
                  
                  {/*FORM*/}
-                 <section className='bg-primary opacity-95 p-4 rounded-md w-[80%] flex flex-col'>
+                 <section className='bg-primary opacity-95 p-4 rounded-md md:w-[80%] flex flex-col md:mx-0 mx-4'>
                      <input className='bg-input-bg p-4 rounded-md' placeholder='Adiniz Soyadiniz'/>
                      <input className='bg-input-bg p-4 mt-3 rounded-md' placeholder='E-posta'/>
                      <input className='bg-input-bg p-4 mt-3 rounded-md' placeholder='Telefon'/>

@@ -1,11 +1,12 @@
 import React from "react";
 import vid from "../../assets/images/video_img.jpg";
+import num from "../../assets/icon/five_itembg.svg"
 
 const Sectionfive = () => {
   return (
     //Main Container
-    <div className="bg-background text-white">
-      <div className="md:m-16 bg-five-new bg-cover opacity-95 p-8">
+    <div className=" text-white bg-primary md:m-16 opacity-95 mt-20">
+      <div className=" bg-five-new bg-cover opacity-95 md:p-14 p-3">
         {/*Div and its Content with flex*/}
         <div className="md:flex justify-between">
           {/*Video @left*/}
@@ -17,8 +18,8 @@ const Sectionfive = () => {
           <div className="w-[100%] md:mt-0 mt-10">
 
             <section className="flex items-center justify-center">
-              <span className="rounded-full bg-primary p-6 hover:bg-white hover:text-black cursor-pointer">
-                <h2 className="">1</h2>
+              <span className="rounded-full bg-primary p-6 w-fit hover:bg-white hover:text-black cursor-pointer">
+                <h2 className="bg-num bg-cover p-6 w-fill">1</h2>
               </span>
               <span className="ml-2">
                 <h2 className="text-blue font-bold">Etkin Sermaye Yönetimi</h2>

@@ -6,14 +6,14 @@ import icon3 from "../../assets/icon/etkin_sermaye_icon.svg";
 const Sectionfour = () => {
   return (
     //Main Container
-    <div className="flex flex-col text-white md:mt-16 mt-20">
+    <div className="flex flex-col text-white md:mt-16 mt-32 md:mx-16 mx-6">
       {/*HEADER*/}
       <h2 className="font-bold text-2xl text-center">
         Global Piyasalarda 500’den Fazla Yatırım Aracı
       </h2>
       {/*HEADER*/}
       {/*Div with Flex and its Contents*/}
-      <div className="md:flex md:px-24 md:mt-20 w-[100%] px-10 mt-10">
+      <div className="md:flex md:mt-20 w-[100%] mt-10">
         {/*Content @left*/}
         <div className="w-[100%]">
           <h2 className="text-xl font-bold">

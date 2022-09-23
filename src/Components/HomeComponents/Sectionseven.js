@@ -6,9 +6,9 @@ import desktop from "../../assets/icon/desktop_icon.svg";
 
 const Sectionseven = () => {
   return (
-    <div className="md:p-20 p-6 mt-10 motion-safe:animate-fadeIn">
-      <div className="md:flex w-[100%] md:justify-between ">
-        <div data-aos="fade-right" className="w-[100%] mr-20">
+    <div className="mt-20 md:mx-16 motion-safe:animate-fadeIn opacity-95 bg-primary mb-20">
+      <div className="md:flex w-[100%] md:justify-between bg-five-new bg-cover md:p-16 p-6">
+        <div className="w-[100%] mr-20">
           <img className="md:w-[90%]" src={meta} alt="" />
         </div>
         <div className="w-[100%]">

@@ -7,6 +7,7 @@ module.exports = {
         'hero-pattern': "url('./assets/images/bgbody.svg')",
         // eslint-disable-next-line no-use-before-define
         'five-new': "url('./assets/images/acco_bg.svg')",
+        'num': "url('./assets/icon/five_itembg.svg')",
       },
       fontFamily: {
         nunito: ['Nunito', 'sans-serif']
@@ -20,7 +21,9 @@ module.exports = {
           "dark": "#2982d2",
           "input-bg": "#0d1c28",
           "alt": "#152f41",
-          "secbg": '#021420'
+          "secbg": '#021420',
+          "abt": '#162837',
+          "inp": '#132330'
        },
     },
   },
