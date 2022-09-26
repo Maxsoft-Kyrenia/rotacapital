@@ -24,9 +24,9 @@ const Navbar = () => {
         <section className="md:flex hidden">
           <ul className="flex text-base font-semibold">
             <li className="hover:text-blue cursor-pointer mr-5">
-             <Link to={'/about'}> Consultancy Services</Link>
+             <Link to={'/services'}> Consultancy Services</Link>
             </li>
-            <li className="hover:text-blue cursor-pointer mr-5"> <Link to={'/butlener'}> Corporate</Link></li>
+            <li className="hover:text-blue cursor-pointer mr-5"> <Link to={'/about'}> Corporate</Link></li>
             <li className="hover:text-blue cursor-pointer mr-5"><Link to={'/platform'}> Platform</Link></li>
             <li className="hover:text-blue cursor-pointer"><Link to={'/contact'}> Contact</Link></li>
           </ul>
