@@ -74,12 +74,12 @@ const Navbar = () => {
           {/*NavLinks*/}
           <section className="ml-6 mt-10 text-white">
             <ul className="text-base font-semibold">
-              <li className="hover:text-blue cursor-pointer mt-5">
-              <Link to={'/about'}> Consultancy Services</Link>
+              <li className="hover:text-blue cursor-pointer mt-5" onClick={() => setOpen(!open)}>
+              <Link to={'/services'}> Consultancy Services</Link>
               </li>
-              <li className="hover:text-blue cursor-pointer mt-5"><Link to={'/butlener'}> Corporate</Link></li>
-              <li className="hover:text-blue cursor-pointer mt-5"><Link to={'/platform'}> Platform</Link></li>
-              <li className="hover:text-blue cursor-pointer mt-5"><Link to={'/contact'}> Contact</Link></li>
+              <li className="hover:text-blue cursor-pointer mt-5" onClick={() => setOpen(!open)}><Link to={'/about'}> Corporate</Link></li>
+              <li className="hover:text-blue cursor-pointer mt-5" onClick={() => setOpen(!open)}><Link to={'/platform'}> Platform</Link></li>
+              <li className="hover:text-blue cursor-pointer mt-5" onClick={() => setOpen(!open)}><Link to={'/contact'}> Contact</Link></li>
             </ul>
           </section>
           {/*NavLinks*/}
