@@ -31,8 +31,8 @@ const Sectionfive = () => {
             </section>
 
             <section className="flex items-center justify-center mt-8">
-              <span className="rounded-full bg-primary p-6 hover:bg-white hover:text-black cursor-pointer">
-                <h2 className="">1</h2>
+            <span className="rounded-full bg-primary p-6 w-fit hover:bg-white hover:text-black cursor-pointer">
+                <h2 className="bg-num bg-cover p-6 w-fill">2</h2>
               </span>
               <span className="ml-2">
                 <h2 className="text-blue font-bold">Etkin Sermaye Yönetimi</h2>
@@ -44,8 +44,8 @@ const Sectionfive = () => {
             </section>
 
             <section className="flex items-center justify-center mt-8">
-              <span className="rounded-full bg-primary p-6 hover:bg-white hover:text-black cursor-pointer">
-                <h2 className="">1</h2>
+            <span className="rounded-full bg-primary p-6 w-fit hover:bg-white hover:text-black cursor-pointer">
+                <h2 className="bg-num bg-cover p-6 w-fill">3</h2>
               </span>
               <span className="ml-2">
                 <h2 className="text-blue font-bold">Etkin Sermaye Yönetimi</h2>

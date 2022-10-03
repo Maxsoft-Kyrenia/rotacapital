@@ -23,17 +23,17 @@ const Footer = () => {
           <h2 className="font-bold text-blue">Bağlantılar</h2>
           <ul className="mt-2">
             <li className="hover:text-blue cursor-pointer">
-              Gizlilik Politikası
+            <Link to={'/politikasi'}> Gizlilik Politikası</Link>
             </li>
             <li className="hover:text-blue cursor-pointer">
-              Kullanım Koşulları
+            <Link to={'/butlener'}>Kullanım Koşulları</Link>
             </li>
             <li className="hover:text-blue cursor-pointer">Hizmetlerim</li>
             <li className="hover:text-blue cursor-pointer">
-              Gizlilik Politikası
+            <Link to={'/politikasi'}> Gizlilik Politikası</Link>
             </li>
             <li className="hover:text-blue cursor-pointer">
-              Kullanım Koşulları
+            <Link to={'/butlener'}>Kullanım Koşulları</Link>
             </li>
           </ul>
         </section>
@@ -51,10 +51,10 @@ const Footer = () => {
             </li>
             <li className="hover:text-blue cursor-pointer">Hizmetlerim</li>
             <li className="hover:text-blue cursor-pointer">
-              Gizlilik Politikası
+            <Link to={'/politikasi'}> Gizlilik Politikası</Link>
             </li>
             <li className="hover:text-blue cursor-pointer">
-              Kullanım Koşulları
+            <Link to={'/butlener'}>Kullanım Koşulları</Link>
             </li>
           </ul>
         </section>
@@ -66,17 +66,17 @@ const Footer = () => {
           <h2 className="font-bold text-blue">Bağlantılar</h2>
           <ul className="mt-2">
             <li className="hover:text-blue cursor-pointer">
-              Gizlilik Politikası
+            <Link to={'/politikasi'}> Gizlilik Politikası</Link>
             </li>
             <li className="hover:text-blue cursor-pointer">
-              Kullanım Koşulları
+            <Link to={'/butlener'}>Kullanım Koşulları</Link>
             </li>
             <li className="hover:text-blue cursor-pointer">Hizmetlerim</li>
             <li className="hover:text-blue cursor-pointer">
-              Gizlilik Politikası
+            <Link to={'/politikasi'}> Gizlilik Politikası</Link>
             </li>
             <li className="hover:text-blue cursor-pointer">
-              Kullanım Koşulları
+            <Link to={'/butlener'}>Kullanım Koşulları</Link>
             </li>
           </ul>
         </section>

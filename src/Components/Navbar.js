@@ -54,9 +54,9 @@ const Navbar = () => {
       <div
         className={`${
           open
-            ? "md:hidden block bg-background float-right fixed right-0 top-0 z-10 h-full w-fit animate-in duration-700 fade-in-75 zoom-in-95 slide-in-from-right-72 fade-out-75 zoom-out-95 slide-out-to-right-72"
-            : "hidden"
-        }`}
+            ? "md:hidden block bg-background translate-x-0 float-right fixed right-0 top-0 z-10 h-full w-fit animate-in ease-in-out duration-700 fade-out-95 zoom-in-95 slide-in-from-right-72"
+            : "hidden translate-x-full"
+        } ease-in-out duration-700` }
       >
         <section className="pt-7 mr-8 md:hidden block bg-background">
           <Icon
